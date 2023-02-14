@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <title>Turbo Az</title>
+    <link rel="icon" href="/assets/image/unnamed.webp">
+</head>
+
+<body>
+
+    <!-- start header -->
+    <header>
+        <!-- start head -->
+
+        <head>
+            <ul class="head" style="display: flex;">
+                <li>
+                    <a href="" style="color:#9194AD;">Tap.az</a>
+                </li>
+                <li>
+                    <a href="" style="color:#9194AD;">Bina.az</a>
+                </li>
+                <li>
+                    <a href="" style="color:#9194AD;">Boos.az</a>
+                </li>
+
+                <li> Dəstək:
+                    <a href="">(012) 599-08-01;</a>
+                    <a href="">(012) 505-77-55</a>
+                </li>
+                <li>
+                    <a href="" style="color:#9194AD;">Yardım</a>
+                </li>
+                <li>
+                    <a href="" style="color:#9194AD;">RU</a>
+                </li>
+                <li>
+                    <a href="" style="color:#9194AD;"><i class="fa-solid fa-heart" ></i> Seçilmişlər</a>
+                </li>
+                <li>
+                    <a href="" style="color:#9194AD;"><i class="fa-solid fa-user"></i>  Giriş</a>
+                </li>
+            </ul>
+        </head>
+        <!-- end head -->
+        <!-- start nav -->
+        <nav>
+            <ul class="head2">
+                <li><a href="">TURBO.AZ</a></li>
+                <li><a href="">Bütün elanlar</a></li>
+                <li> <a href="">Avtosalonlar</a></li>
+                <li> <a href="">Ehtiyat hissələri və aksesuarlar</a></li>
+                <li> <a href="" style="background-color: #7ED321; margin: 70px; padding: 10px; border-radius: 10px;"><i class="fa-solid fa-circle-plus"></i> Yeni elan</a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+        <!-- start container -->
+        <div class="container">
+            <div class="box">
+                <form action="">
+                    <input list="siyahi" placeholder="Marka">
+                    <datalist id="siyahi">
+                <option value="Audi">
+                <option value="BMW">
+                <option value="Mercedes">
+                <option value="Toyota">
+                <option value="Ferrari">
+                <option value="Chevrolet">
+             </datalist>
+                </form>
+                <form action="">
+                    <input type="number" name="qmin" placeholder="Qiymət, min" min="0" max="100000000">
+                    <input type="number" name="qmaks" placeholder="maks" min="0" max="100000000">
+                </form>
+            </div>
+            <br>
+            <div class="box">
+                <form action="">
+                    <input list="siyahi" placeholder="Model " disabled>
+                    <datalist id="siyahi">
+                    <option value="Internet Explorer ">
+                    <option value="Firefox ">
+                    <option value="Chrome ">
+                    <option value="Opera ">
+                    <option value="Safari ">
+                </datalist>
+                </form>
+                <form action="">
+                    <select name="choice">
+                <option value="AZN">AZN</option>
+                <option value="USD" selected>USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+                    <input type="checkbox" id="Kredit" name="Kredit" value="Kredit">
+                    <label for="Kredit">Kredit</label>
+                    <input type="checkbox" id="Barter" name="Barter" value="Barter">
+                    <label for="Barter">Barter</label></form>
+            </div>
+            <br>
+            <div class="box">
+                <form action="">
+                    <input type="radio" id="contactChoice1" name="All" />
+                    <label for="contactChoice1">Hamısı</label>
+
+                    <input type="radio" id="contactChoice2" name="All" />
+                    <label for="contactChoice2">Yeni</label>
+
+                    <input type="radio" id="contactChoice3" name="All" />
+                    <label for="contactChoice3">Sürülmüş</label>
+                </form>
+                <form action=""><input list="bann" placeholder="Ban növü">
+                    <datalist id="bann">
+                    <option value="Avtobus">
+                    <option value="Kupe ">
+                    <option value="Furqon">
+                    <option value="Sedan">
+                    <option value="Pikap">
+                 </datalist>
+                </form>
+            </div>
+            <br>
+            <div class="box">
+                <form action="">
+                    <input list="city" placeholder="Şəhər">
+                    <datalist id="city">
+                    <option value="Ağsu">
+                    <option value="Ağdaş ">
+                    <option value="Balakən">
+                    <option value="Bakı">
+                    <option value="Zaqatala">
+                </datalist>
+                </form>
+                <form action="">
+                    <input type="number" name="qmin" placeholder="İl, min." min="1901" max="2023">
+                    <input type="number" name="qmaks" placeholder="maks." min="1901" max="2023">
+                </form>
+            </div>
+        </div>
+        <!-- end container -->
+        <br><br>
+
+        <!-- end ul -->
+        <ul style="display: flex; width: 100%;">
+            <li>Bu gün:
+                <a href="#" style="color:#8F9EF8;"> 1966 yeni elan</a>
+            </li>
+            <li>
+                <a href="# " style="color: red; "> Sıfırla</a>
+            </li>
+            <li>
+                <a href=" " style="color: red; ">
+                    Daha çox filtir
+                </a>
+                <!-- start dropdrown  -->
+                <a href="# "></a>
+                <!-- end dropdrown -->
+            </li>
+            <li>
+                <a href="# " style="border-radius: 5px; background-color: red; color: aliceblue; padding: 10px 20px; ">Elanları göstər</a>
+            </li>
+        </ul>
+        <!-- end ul -->
+        <h3 style="margin: 20px;">VIP ELANLAR</h3>
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <main>
+        <fieldset>
+            <figure class="car1 ">
+                <img src="./assets/image/19498_WK9JhE9dqbzw9C0pt2SJyw.jpg " alt="car ">
+                <figcaption>
+                    <h3>132 200 AZN</h3>
+                    <p>Baic M60</p>
+                    <p>Bakı, 02.02.2023 14:51</p>
+                </figcaption>
+            </figure>
+        </fieldset>
+        <fieldset>
+            <figure class="car1 ">
+                <img src="./assets/image/55229_gXV4k6YQzIFXnfpbqmwasg.jpg" alt="car ">
+                <figcaption>
+                    <h3>17 200 AZN</h3>
+                    <p>Baic M60</p>
+                    <p>Bakı, 02.02.2023 14:51</p>
+                </figcaption>
+            </figure>
+        </fieldset>
+        <fieldset>
+            <figure class="car1 ">
+                <img src="./assets/image/67483_bCuYOJNRjxQuEHPRoMiQIg.jpg" alt="car ">
+                <figcaption>
+                    <h3>32 000 AZN</h3>
+                    <p>Baic M60</p>
+                    <p>Bakı, 02.02.2023 14:51</p>
+                </figcaption>
+            </figure>
+        </fieldset>
+        <fieldset>
+            <figure class="car1 ">
+                <img src="./assets/image/69530_aRsObEA2LVaG61P1RLZqnQ.jpg" alt="car ">
+                <figcaption>
+                    <h3>12 200 AZN</h3>
+                    <p>Baic M60</p>
+                    <p>Bakı, 02.02.2023 14:51</p>
+                </figcaption>
+            </figure>
+        </fieldset>
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer>
+        <!--start footernav-->
+        <section>
+            <ul class="footernav">
+                <li>
+                    <a href="">Reklam yerləşdirin</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-envelope"></i>turbo@turbo.az</a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-phone">(012) 599-08-01 <br>(012) 505-77-55</i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- end footernav -->
+        <!-- list car -->
+        <section>
+            <div class="footerbox">
+                <ul style="display: block;">
+                    <li>
+                        <a href="#">Abarth (10)</a>
+                    </li>
+                    <li>
+                        <a href="#">Acura (22)</a>
+                    </li>
+                    <li>
+                        <a href="#">Alfa Romeo (21)</a>
+                    </li>
+                    <li>
+                        <a href="#">ARO (12)</a>
+                    </li>
+                    <li>
+                        <a href="#">Aston Martin (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">ATV (8)</a>
+                    </li>
+                    <li>
+                        <a href="#">Audi (33)</a>
+                    </li>
+                    <li>
+                        <a href="#">Baic (16)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bajaj (3)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bentley (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bestune (2)</a>
+                    </li>
+                    <li>
+                        <a href="#">BMC (9)</a>
+                    </li>
+                </ul>
+                <ul style="display: block;">
+                    <li>
+                        <a href="#">Abarth (10)</a>
+                    </li>
+                    <li>
+                        <a href="#">Acura (22)</a>
+                    </li>
+                    <li>
+                        <a href="#">Alfa Romeo (21)</a>
+                    </li>
+                    <li>
+                        <a href="#">ARO (12)</a>
+                    </li>
+                    <li>
+                        <a href="#">Aston Martin (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">ATV (8)</a>
+                    </li>
+                    <li>
+                        <a href="#">Audi (33)</a>
+                    </li>
+                    <li>
+                        <a href="#">Baic (16)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bajaj (3)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bentley (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bestune (2)</a>
+                    </li>
+                    <li>
+                        <a href="#">BMC (9)</a>
+                    </li>
+                </ul>
+                <ul style="display: block;">
+                    <li>
+                        <a href="#">Abarth (10)</a>
+                    </li>
+                    <li>
+                        <a href="#">Acura (22)</a>
+                    </li>
+                    <li>
+                        <a href="#">Alfa Romeo (21)</a>
+                    </li>
+                    <li>
+                        <a href="#">ARO (12)</a>
+                    </li>
+                    <li>
+                        <a href="#">Aston Martin (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">ATV (8)</a>
+                    </li>
+                    <li>
+                        <a href="#">Audi (33)</a>
+                    </li>
+                    <li>
+                        <a href="#">Baic (16)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bajaj (3)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bentley (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bestune (2)</a>
+                    </li>
+                    <li>
+                        <a href="#">BMC (9)</a>
+                    </li>
+                </ul>
+                <ul style="display: block;">
+                    <li>
+                        <a href="#">Abarth (10)</a>
+                    </li>
+                    <li>
+                        <a href="#">Acura (22)</a>
+                    </li>
+                    <li>
+                        <a href="#">Alfa Romeo (21)</a>
+                    </li>
+                    <li>
+                        <a href="#">ARO (12)</a>
+                    </li>
+                    <li>
+                        <a href="#">Aston Martin (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">ATV (8)</a>
+                    </li>
+                    <li>
+                        <a href="#">Audi (33)</a>
+                    </li>
+                    <li>
+                        <a href="#">Baic (16)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bajaj (3)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bentley (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bestune (2)</a>
+                    </li>
+                    <li>
+                        <a href="#">BMC (9)</a>
+                    </li>
+                </ul>
+                <ul style="display: block;">
+                    <li>
+                        <a href="#">Abarth (10)</a>
+                    </li>
+                    <li>
+                        <a href="#">Acura (22)</a>
+                    </li>
+                    <li>
+                        <a href="#">Alfa Romeo (21)</a>
+                    </li>
+                    <li>
+                        <a href="#">ARO (12)</a>
+                    </li>
+                    <li>
+                        <a href="#">Aston Martin (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">ATV (8)</a>
+                    </li>
+                    <li>
+                        <a href="#">Audi (33)</a>
+                    </li>
+                    <li>
+                        <a href="#">Baic (16)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bajaj (3)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bentley (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">Bestune (2)</a>
+                    </li>
+                    <li>
+                        <a href="#">BMC (9)</a>
+                    </li>
+                </ul>
+                <ul style="display: block;">
+                    <li>
+                        <a href="#">Abarth (10)</a>
+                    </li>
+                    <li>
+                        <a href="#">Acura (22)</a>
+                    </li>
+                    <li>
+                        <a href="#">Alfa Romeo (21)</a>
+                    </li>
+                    <li>
+                        <a href="#">ARO (12)</a>
+                    </li>
+                    <li>
+                        <a href="#">Aston Martin (7)</a>
+                    </li>
+                    <li>
+                        <a href="#">ATV (8)</a>
+                    </li>
+                    <li>
+                        <a href="#">Audi (33)</a>
+                    </li>
+                    <li>
+                        <a href="#">Baic (16)</a>
+                    </li>
+                    <li><img src="/assets/image/imagestatik.png" alt="rating" style="width: 90px;height: 120px;"></li>
+                </ul>
+            </div>
+        </section>
+        <hr style="background-color: #9194AD;">
+        <section>
+            <ul class="listqayda">
+                <li>
+                    <a href="#">Qaydalar</a>
+                </li>
+                <li>
+                    <a href="#">Qanun</a>
+                </li>
+                <li>
+                    <a href="#">İstifadəçi razılaşması</a>
+                </li>
+                <li>
+                    <a href="#">Məxfilik siyasəti</a>
+                </li>
+            </ul>
+        </section>
+        <section class="footerend">
+            <p>Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş elanların <br> məzmununa görə məsuliyyət daşımır.</p>
+            <ul style="display: flex;">
+                <li>2006-2023 Digital Classifieds MMC. VÖEN: 1405631661</li>
+                <li> <a href="#" style="color: aliceblue;">Mobil versiyası</a></li>
+            </ul>
+        </section>
+
+
+    </footer>
+    <!-- end footer -->
+
+
+
+
+
+
+</body>
+
+</html>
+
+</html>
